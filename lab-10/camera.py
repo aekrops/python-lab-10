@@ -56,7 +56,7 @@ class Camera:
 		return self._memory_capacity_in_mb
 
 	@memory_capacity_in_mb.setter
-	def memory_capacity_in_mb(self, memory_capacity):
+	def memory_capacity_in_mb(self, memory_capacity_in_mb):
 		self._memory_capacity_in_mb = memory_capacity_in_mb
 
 	@property
